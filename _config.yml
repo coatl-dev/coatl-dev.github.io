@@ -3,7 +3,7 @@ author:
   name: coatl-dev
   email: blog@coatl.dev
 description: > # this means to ignore newlines until "show_excerpts:"
-  We are Software Developers enabling other Software Developers.
+  We are Software Developers enabling other Software Developers. 🇲🇽
 
 remote_theme: jekyll/minima
 
