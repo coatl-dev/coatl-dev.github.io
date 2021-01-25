@@ -16,6 +16,7 @@ author: __coatldev__
 
 navbar-links:
   About Us: "about"
+  Archive: "archive"
   Projects:
     - Homebrew Tap: "https://github.com/coatl-dev/homebrew-coatl-dev/"
     - coatl.dev Formulae: "https://formulae.coatl.dev/"
@@ -206,7 +207,3 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
-
