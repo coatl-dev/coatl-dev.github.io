@@ -7,7 +7,7 @@ remote_theme: daattali/beautiful-jekyll@5.0.0
 # --- Required options --- #
 
 # Name of website
-title: coatl.dev - Software Developers
+title: coatl.dev
 
 # Your name to show in the footer
 author: __coatldev__
@@ -15,6 +15,7 @@ author: __coatldev__
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Blog: "blog"
   About Us: "about"
   Archive: "archive"
   Projects:
@@ -62,7 +63,7 @@ rss-description: coatl.dev feed
 url-pretty: "coatl.dev"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+excerpt_length: 20
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
@@ -171,8 +172,9 @@ date_format: "%-d %B, %Y"
 timezone: "America/Tijuana"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year/:month/:day/:title/
-paginate: 5
+permalink: blog/:year/:month/:day/:title/
+paginate: 2
+paginate_path: "blog/page:num"
 
 kramdown:
   input: GFM

@@ -4,6 +4,9 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
+# Blog
+_drafts/
+
 # Gemfile
 Gemfile.lock
 
