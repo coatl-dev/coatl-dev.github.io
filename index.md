@@ -2,8 +2,8 @@
 layout: page
 title: coatl.dev
 subtitle: Software Developers enabling Software Developers
+css: '/css/home.css'
 ---
-<link rel="stylesheet" href="/css/home.css" />
 
 <h1 class="text-center">Current Projects</h1>
 
