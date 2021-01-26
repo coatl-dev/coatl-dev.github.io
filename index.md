@@ -3,6 +3,7 @@ layout: page
 title: coatl.dev
 subtitle: Software Developers enabling Software Developers
 ---
+<link rel="stylesheet" href="/css/home.css" />
 
 <h1 class="text-center">Current Projects</h1>
 
@@ -15,7 +16,7 @@ subtitle: Software Developers enabling Software Developers
       {%- assign gh-project = "homebrew-coatl-dev" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-beer fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
@@ -32,7 +33,7 @@ subtitle: Software Developers enabling Software Developers
       {%- assign gh-project = "formulae.coatl.dev" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
-          <i class="fas fa-circle fa-stack-2x stack-color"></i>
+          <i class="fas fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-book fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
@@ -50,7 +51,7 @@ subtitle: Software Developers enabling Software Developers
     {%- assign gh-project = "Ignition" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
