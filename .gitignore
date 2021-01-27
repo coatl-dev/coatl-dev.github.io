@@ -1,11 +1,9 @@
 # Jekyll
+_drafts/
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-
-# Blog
-_drafts/
 
 # Gemfile
 Gemfile.lock
@@ -38,4 +36,3 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-
