@@ -8,6 +8,9 @@ _site/
 # Gemfile
 Gemfile.lock
 
+# Development configuration
+_dev_config.yml
+
 # macOS
 # General
 .DS_Store
