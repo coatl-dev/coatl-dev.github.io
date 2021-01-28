@@ -20,9 +20,9 @@ css: '/css/home.css'
           <i class="fa fa-beer fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
+        <hr class="separator">
         <p class="text-muted">🍺 coatl.dev Homebrew Tap</p>
-        <hr class="seperator">
+        <hr class="separator">
         <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
         <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
       </a>
@@ -38,9 +38,9 @@ css: '/css/home.css'
           <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
-        <p class="text-muted">⚡ A set of packages and modules that allow developers to get code completion for Ignition Scripting API scripting functions in their IDE of choice.</p>
-        <hr class="seperator">
+        <hr class="separator">
+        <p class="text-muted">⚡️ A set of packages and modules that allows developers to get code completion for Ignition Scripting API scripting functions in their IDE of choice</p>
+        <hr class="separator">
         <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
         <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
       </a>
@@ -56,9 +56,9 @@ css: '/css/home.css'
           <i class="fa fa-box fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
-        <hr class="seperator">
+        <hr class="separator">
         <p class="text-muted">📦 Package that extends and wraps Ignition scripting API</p>
-        <hr class="seperator">
+        <hr class="separator">
         <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
         <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
       </a>

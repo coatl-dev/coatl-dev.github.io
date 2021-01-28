@@ -14,7 +14,7 @@ a.project-link:hover {
     padding: 10px;
     width: 230px;
     min-height: 300px;
-    /* Need to fix horzontal alignment for grid system */
+    /* Need to fix horizontal alignment for grid system */
     float: none;
     margin: 0 auto 25px auto;
 }
@@ -28,7 +28,7 @@ a.project-link:hover {
     min-height: 5em;
 }
 
-.seperator {
+.separator {
     margin-top: 15px;
     margin-bottom: 10px;
     border-color: #aaa;
@@ -56,7 +56,7 @@ a.project-link:hover {
 }
 
 .post-preview-box {
-    background-image: url('/img/concrete-texture.png');
+    background-image: url('/assets/img/concrete-texture.png');
     background-attachment: scroll;
     border-style: 0px;
     border-radius: 8px;
