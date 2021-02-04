@@ -10,7 +10,7 @@ date: 2021-02-03 23:52 -0800
 ---
 During the winter break we started working in a way to get [Ignition](https://inductiveautomation.com/ignition/), by Inductive Automation, installed via Homebrew, and recently our efforts have come to fruition.
 
-For those who might not be aware of Homebrew (https://brew.sh/), Homebrew is "The Missing Package Manager for macOS (or Linux)".
+For those who might not be aware of [Homebrew](https://brew.sh/), Homebrew is "The Missing Package Manager for macOS (or Linux)".
 
 > What Does Homebrew Do?
 >
