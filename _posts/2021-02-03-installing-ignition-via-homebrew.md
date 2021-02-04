@@ -7,6 +7,7 @@ tags:
 - ignition
 - scada
 date: 2021-02-03 23:52 -0800
+last-updated: 2021-02-04 08:25 -0800
 ---
 During the winter break we started working in a way to get [Ignition](https://inductiveautomation.com/ignition/), by Inductive Automation, installed via Homebrew, and recently our efforts have come to fruition.
 
@@ -61,6 +62,26 @@ The installation creates a symlink located in `/usr/local/bin`, and each Ignitio
 
 So you'll just have to run `ignition-x-x-x start` or `ignition-edge-x-x-x start` for the Edge release.
 
+```bash
+$ ignition-8.1.2 start
+Starting Ignition-Gateway...
+Waiting for Ignition-Gateway.........
+running: PID:5999
+```
+
+The first time you start Ignition you might see the following output:
+
+```bash
+$ ignition-8.1.2 start
+decompressing runtime..
+runtime decompression complete
+Starting Ignition-Gateway...
+Waiting for Ignition-Gateway.......
+running: PID:6811
+```
+
+This means that Ignition is decompressing the pre-bundled JRE.
+
 ### How do I start Ignition automatically at Login?
 As the installation messages suggests, just run `brew services start coatl-dev/coatl-dev/ignition@x.x.x`. Alternatively you could run `sudo brew services start coatl-dev/coatl-dev/ignition@x.x.x` to start at startup.
 
@@ -74,6 +95,13 @@ For more information about `brew services`, run `brew services --help`.
 
 ### How do I check the status of the Ignition service?
 Simply run the following command:
+
+```bash
+$ ignition-8.1.2 status
+Ignition-Gateway (not installed) is running: PID:5999, Wrapper:STARTED, Java:STARTED
+```
+
+Or to check the `brew` service:
 
 ```bash
 $ brew services
@@ -91,9 +119,39 @@ ignition@8.1.2 error   thecesrom /Users/thecesrom/Library/LaunchAgents/homebrew.
 
 There is no issue with the service, you might just need to restart.
 
+### How do I run `gwcmd`?
+For those of you that wish to manage your Gateway through the Gateway Command-line Utility, or `gwcmd`, it can be found at `/usr/local/Cellar/ignition@X.X.X/X.X.X/libexec`.
+
+```bash
+$ cd /usr/local/Cellar/ignition@8.1.2/8.1.2/libexec
+$ ./gwcmd.sh --info
+Gateway Name: Ignition-Cesars-MacBook-Air.local
+Gateway Version: 8.1.2 (64-bit)
+Web Server Status: RUNNING
+Gateway Status: RUNNING
+Http Port: 8088
+Https Port: 8443
+$ ./gwcmd.sh --port 80
+HTTP port changed.
+$ ./gwcmd.sh --sslport 443
+HTTPS port changed.
+$ ./gwcmd.sh --restart
+Waiting for Gateway restart..
+Gateway is now running
+$ ./gwcmd.sh --info
+Gateway Name: Ignition-Cesars-MacBook-Air.local
+Gateway Version: 8.1.2 (64-bit)
+Web Server Status: RUNNING
+Gateway Status: RUNNING
+Http Port: 80
+Https Port: 443
+```
+
+To see a full list of options run `./gwcmd.sh --help` or read the documentation [here](https://docs.inductiveautomation.com/display/DOC81/Gateway+Command-line+Utility+-+gwcmd).
+
 ### How do I uninstall Ignition?
 1. ⚠️ Stop the Gateway by running `ignition-x.x.x stop` or `ignition-edge-x.x.x stop`⚠️
-2. Run `brew uninstall ignition@x.x.x` or `brew uninstall ignition-edge-x.x.x`
+2. Run `brew uninstall ignition@x.x.x` or `brew uninstall ignition-edge@x.x.x`
 3. Done
 
 ### Where do I get support if something goes wrong?
