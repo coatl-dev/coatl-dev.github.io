@@ -16,7 +16,7 @@ We are proud to announce two new formulae!
 - [ignition@8.1.2](https://formulae.coatl.dev/formula/ignition@8.1.2)
 
 ## How do I install these formulae?
-To install these formulae, first tap our Homebrew tap
+To install these formulae, first tap our Homebrew tap:
 
 ```bash
 $ brew tap coatl-dev/coatl-dev
@@ -51,7 +51,7 @@ $ brew install coatl-dev/coatl-dev/ignition@8.1.2
 ## How do I start the Ignition Gateway?
 
 {: .box-warning}
-Warning: Please make sure you don't have another Ignition Gateway running on port `8088`. If you do, please stop it by running `ignition@X.X.X stop` or`ignition-edge@X.X.X stop` if you've installed from our Tap, or `ignition stop` if you've installed it directly from Inductive Automation.
+Warning: Please make sure you don't have another Ignition Gateway running on port `8088`. If you do, please stop it by running `ignition@X.X.X stop` or `ignition-edge@X.X.X stop` if you've installed from our Tap, or `ignition stop` if you've installed it directly from Inductive Automation.
 
 Once installed, open a new Terminal window and run the following command:
 
