@@ -33,7 +33,7 @@ Please note that multiple releases can be installed side-by-side, with some cons
 To get a list of available versions, run `brew search ignition` after you've tapped our repo or refer to [which formulae are available](#which-formulae-are-available).
 
 ### Which formulae are available?
-You may visit https://formulae.coatl.dev/formula/ for the complete list.
+You may visit [coatl.dev formulae](https://formulae.coatl.dev/formula/) for the complete list.
 
 ### How do I install these formulae?
 You can run `brew install coatl-dev/coatl-dev/<formula>`, or `brew tap coatl-dev/coatl-dev` and then `brew install <formula>` .
