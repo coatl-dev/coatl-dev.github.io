@@ -81,4 +81,6 @@ Or
 $ brew services start coatl-dev/coatl-dev/ignition@8.1.2
 ```
 
+## Discussions
+
 If you run into any issue, feel free to post something at our [Discussions](https://github.com/coatl-dev/discussions/discussions).
