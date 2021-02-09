@@ -141,10 +141,10 @@ ignition@8.1.2 error   thecesrom /Users/thecesrom/Library/LaunchAgents/homebrew.
 There is no issue with the service, you might just need to restart.
 
 ## How do I run `gwcmd`?
-For those of you that wish to manage your Gateway through the Gateway Command-line Utility, or `gwcmd`, it can be found at `/usr/local/Cellar/ignition@X.X.X/X.X.X/libexec`.
+For those of you that wish to manage your Gateway through the Gateway Command-line Utility, or `gwcmd`, it can be found at `/usr/local/Cellar/ignition@x.x.x/x.x.x/libexec`.
 
 ```bash
-$ cd /usr/local/Cellar/ignition@8.1.2/8.1.2/libexec
+$ cd "$(brew --cellar)/ignition@8.1.2/8.1.2/libexec"
 $ ./gwcmd.sh --info
 Gateway Name: Ignition-Cesars-MacBook-Air.local
 Gateway Version: 8.1.2 (64-bit)
@@ -183,7 +183,7 @@ You can only provision or select one version for each release. This means that i
 As mentioned above, it is important to first stop the Gateway, otherwise you might run into an issue if you want to reinstall the same version.
 
 ## Troubleshooting
-While testing Ignition formulae we noticed that if the formula is uninstalled via `brew uninstall ignition[-edge]-X.X.X` before the service is stopped, the running service does not allow Homebrew to perform proper cleanup so the formula directory cannot be deleted (found at `$(brew --cellar)/ignition[-edge]-X.X.X/X.X.X`).
+While testing Ignition formulae we noticed that if the formula is uninstalled via `brew uninstall ignition[-edge]-x.x.x` before the service is stopped, the running service does not allow Homebrew to perform proper cleanup so the formula directory cannot be deleted (found at `$(brew --cellar)/ignition[-edge]-x.x.x/x.x.x`).
 
 For example, if you installed `ignition@8.1.2`, then uninstalled without stopping the service, and try to install again, you might get the following error:
 
@@ -196,7 +196,7 @@ You can use `brew link ignition@8.1.2` to link this version.
 
 Steps to fix this:
 1. Stop the Ignition process using `Activity Monitor`, `top`, or `htop`
-1. Delete the `ignition[-edge]-X.X.X` folder from your Cellar
+1. Delete the `ignition[-edge]-x.x.x` folder from your Cellar
     ```bash
     $ brew uninstall ignition@8.1.2
     Uninstalling /usr/local/Cellar/ignition@8.1.2/8.1.2... (6.5KB)
