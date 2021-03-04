@@ -64,7 +64,7 @@ $ brew install coatl-dev/coatl-dev/ignition
 ## How do I start the Ignition Gateway?
 
 {: .box-warning}
-Warning: Please make sure you don't have another Ignition Gateway running on port `8088`. If you do, please stop it by running `ignition@X.X.X stop` or `ignition-edge@X.X.X stop` if you've installed from our Tap, or `ignition stop` if you've installed it directly from Inductive Automation.
+Warning: Please make sure you don't have another Ignition Gateway running on port `8088`. If you do, please stop it by running `ignition@X.X.X stop`, `ignition-edge@X.X.X stop` or `ignition stop`.
 
 Once installed, open a new Terminal window and run the following command:
 
