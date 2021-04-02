@@ -23,16 +23,16 @@ To install these formulae, first tap our Homebrew tap:
 $ brew tap coatl-dev/coatl-dev
 ```
 
-And then, for `ignition-edge@8.1.2`:
+And then, for `ignition-edge@8.1.3`:
 
 ```bash
-$ brew install ignition-edge@8.1.2
+$ brew install ignition-edge@8.1.3
 ```
 
-Or for `ignition@8.1.2`:
+Or for `ignition@8.1.3`:
 
 ```bash
-$ brew install ignition@8.1.2
+$ brew install ignition@8.1.3
 ```
 
 Or for `ignition`:
@@ -43,16 +43,16 @@ $ brew install ignition
 
 Or with one single command.
 
-For `ignition-edge@8.1.2`:
+For `ignition-edge@8.1.3`:
 
 ```bash
-$ brew install coatl-dev/coatl-dev/ignition-edge@8.1.2
+$ brew install coatl-dev/coatl-dev/ignition-edge@8.1.3
 ```
 
-Or for `ignition@8.1.2`:
+Or for `ignition@8.1.3`:
 
 ```bash
-$ brew install coatl-dev/coatl-dev/ignition@8.1.2
+$ brew install coatl-dev/coatl-dev/ignition@8.1.3
 ```
 
 Or for `ignition`:
@@ -69,13 +69,13 @@ Warning: Please make sure you don't have another Ignition Gateway running on por
 Once installed, open a new Terminal window and run the following command:
 
 ```bash
-$ ignition-edge@8.1.2 start
+$ ignition-edge@8.1.3 start
 ```
 
 Or
 
 ```bash
-$ ignition@8.1.2 start
+$ ignition@8.1.3 start
 ```
 
 Or
@@ -91,13 +91,13 @@ Once the Service starts, you can go to http://localhost:8088/ to provision your 
 Run the following command:
 
 ```bash
-$ brew services start coatl-dev/coatl-dev/ignition-edge@8.1.2
+$ brew services start coatl-dev/coatl-dev/ignition-edge@8.1.3
 ```
 
 Or
 
 ```bash
-$ brew services start coatl-dev/coatl-dev/ignition@8.1.2
+$ brew services start coatl-dev/coatl-dev/ignition@8.1.3
 ```
 
 Or
