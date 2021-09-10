@@ -6,6 +6,7 @@ tags:
 - ignition
 - scada
 date: 2021-03-04 13:47 -0800
+last-updated: 2021-09-09 22:49 -0700
 ---
 In coatl.dev we have been busy at creating the Ignition formula that will allow you to upgrade automatically as soon as a new version is released. This should give you a similar experience to downloading the Ignition installer and replacing an old version with the latest.
 
@@ -155,7 +156,7 @@ Once installed you may run any of the following commands to check Ignition's sta
     ```
 1. With `gwcmd`
     ```bash
-    $ cd "$(brew --cellar)/ignition/8.1.3/libexec"
+    $ cd "$(brew --prefix ignition)/libexec"
     $ ./gwcmd.sh -i
     Gateway Name: Ignition-Cesars-MacBook-Air.local
     Gateway Version: 8.1.3 (64-bit)
