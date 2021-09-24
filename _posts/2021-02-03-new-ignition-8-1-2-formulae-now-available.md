@@ -16,22 +16,23 @@ We are proud to announce two new formulae!
 - [ignition@8.1.2](https://formulae.coatl.dev/formula/ignition@8.1.2)
 
 ## How do I install these formulae?
+
 To install these formulae, first tap our Homebrew tap:
 
 ```bash
-$ brew tap coatl-dev/coatl-dev
+brew tap coatl-dev/coatl-dev
 ```
 
 And then, for `ignition-edge@8.1.2`:
 
 ```bash
-$ brew install ignition-edge@8.1.2
+brew install ignition-edge@8.1.2
 ```
 
 Or for `ignition@8.1.2`:
 
 ```bash
-$ brew install ignition@8.1.2
+brew install ignition@8.1.2
 ```
 
 Or with one single command.
@@ -39,13 +40,13 @@ Or with one single command.
 For `ignition-edge@8.1.2`:
 
 ```bash
-$ brew install coatl-dev/coatl-dev/ignition-edge@8.1.2
+brew install coatl-dev/coatl-dev/ignition-edge@8.1.2
 ```
 
 Or for `ignition@8.1.2`:
 
 ```bash
-$ brew install coatl-dev/coatl-dev/ignition@8.1.2
+brew install coatl-dev/coatl-dev/ignition@8.1.2
 ```
 
 ## How do I start the Ignition Gateway?
@@ -56,29 +57,29 @@ Warning: Please make sure you don't have another Ignition Gateway running on por
 Once installed, open a new Terminal window and run the following command:
 
 ```bash
-$ ignition-edge@8.1.2 start
+ignition-edge@8.1.2 start
 ```
 
 Or
 
 ```bash
-$ ignition@8.1.2 start
+ignition@8.1.2 start
 ```
 
-Once the Service starts, you can go to http://localhost:8088/ to provision your Gateway.
+Once the Service starts, you can go to <http://localhost:8088/> to provision your Gateway.
 
 ## How do I start Ignition automatically at login?
 
 Run the following command:
 
 ```bash
-$ brew services start coatl-dev/coatl-dev/ignition-edge@8.1.2
+brew services start coatl-dev/coatl-dev/ignition-edge@8.1.2
 ```
 
 Or
 
 ```bash
-$ brew services start coatl-dev/coatl-dev/ignition@8.1.2
+brew services start coatl-dev/coatl-dev/ignition@8.1.2
 ```
 
 ## Discussions

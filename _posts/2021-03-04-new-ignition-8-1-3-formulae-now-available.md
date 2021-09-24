@@ -17,28 +17,29 @@ We are proud to announce three new formulae!
 - [ignition@8.1.3](https://formulae.coatl.dev/formula/ignition@8.1.3)
 
 ## How do I install these formulae?
+
 To install these formulae, first tap our Homebrew tap:
 
 ```bash
-$ brew tap coatl-dev/coatl-dev
+brew tap coatl-dev/coatl-dev
 ```
 
 And then, for `ignition-edge@8.1.3`:
 
 ```bash
-$ brew install ignition-edge@8.1.3
+brew install ignition-edge@8.1.3
 ```
 
 Or for `ignition@8.1.3`:
 
 ```bash
-$ brew install ignition@8.1.3
+brew install ignition@8.1.3
 ```
 
 Or for `ignition`:
 
 ```bash
-$ brew install ignition
+brew install ignition
 ```
 
 Or with one single command.
@@ -46,19 +47,19 @@ Or with one single command.
 For `ignition-edge@8.1.3`:
 
 ```bash
-$ brew install coatl-dev/coatl-dev/ignition-edge@8.1.3
+brew install coatl-dev/coatl-dev/ignition-edge@8.1.3
 ```
 
 Or for `ignition@8.1.3`:
 
 ```bash
-$ brew install coatl-dev/coatl-dev/ignition@8.1.3
+brew install coatl-dev/coatl-dev/ignition@8.1.3
 ```
 
 Or for `ignition`:
 
 ```bash
-$ brew install coatl-dev/coatl-dev/ignition
+brew install coatl-dev/coatl-dev/ignition
 ```
 
 ## How do I start the Ignition Gateway?
@@ -69,41 +70,41 @@ Warning: Please make sure you don't have another Ignition Gateway running on por
 Once installed, open a new Terminal window and run the following command:
 
 ```bash
-$ ignition-edge@8.1.3 start
+ignition-edge@8.1.3 start
 ```
 
 Or
 
 ```bash
-$ ignition@8.1.3 start
+ignition@8.1.3 start
 ```
 
 Or
 
 ```bash
-$ ignition start
+ignition start
 ```
 
-Once the Service starts, you can go to http://localhost:8088/ to provision your Gateway.
+Once the Service starts, you can go to <http://localhost:8088/> to provision your Gateway.
 
 ## How do I start Ignition automatically at login?
 
 Run the following command:
 
 ```bash
-$ brew services start coatl-dev/coatl-dev/ignition-edge@8.1.3
+brew services start coatl-dev/coatl-dev/ignition-edge@8.1.3
 ```
 
 Or
 
 ```bash
-$ brew services start coatl-dev/coatl-dev/ignition@8.1.3
+brew services start coatl-dev/coatl-dev/ignition@8.1.3
 ```
 
 Or
 
 ```bash
-$ brew services start coatl-dev/coatl-dev/ignition
+brew services start coatl-dev/coatl-dev/ignition
 ```
 
 ## Discussions
