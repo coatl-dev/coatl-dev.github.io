@@ -9,7 +9,7 @@ tags:
 - scada
 date: 2021-06-18 15:47 -0700
 ---
-Just a few days before [spring](https://en.wikipedia.org/wiki/Spring_(season)){:targe="blank"} comes to an end, we at coatl.dev have done our part in cleaning our house. So after considering multiple factors we have decided to retire all Edge formulae, as well as all versioned formulae, and maintain only three Ignition formulae.
+Just a few days before [Spring](https://en.wikipedia.org/wiki/Spring_(season)){:targe="blank"} comes to an end, we at coatl.dev have done our part in cleaning our house. So after considering multiple factors we have decided to retire all Edge formulae, as well as all versioned formulae, and maintain only three Ignition formulae.
 
 We have been paying close attention to analytics provided by Homebrew on install events for the past [30](https://formulae.brew.sh/analytics/install/30d/){:targe="blank"}, [90](https://formulae.brew.sh/analytics/install/90d/){:targe="blank"}, and [365](https://formulae.brew.sh/analytics/install/365d/){:targe="blank"} days, and have never seen an Edge version install event, nor any other formulae apart from `ignition`, `ignition@8.1.1`, and `jython@2.7.1`.
 
