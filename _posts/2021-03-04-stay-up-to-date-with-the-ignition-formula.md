@@ -11,7 +11,7 @@ last-updated: 2021-09-09 22:49 -0700
 In coatl.dev we have been busy at creating the Ignition formula that will allow you to upgrade automatically as soon as a new version is released. This should give you a similar experience to downloading the Ignition installer and replacing an old version with the latest.
 
 <!-- TOC -->
-# Table of contents
+## Table of contents
 
 - [Install Ignition](#install-ignition)
 - [Upgrade Ignition](#upgrade-ignition)
@@ -82,8 +82,9 @@ Note: We have "pinned" Ignition 8.1.2 so we upgrade at our convenience, to learn
 1. Create a Gateway backup via `gwcmd` or the Web interface **Config > System > System Backup/Restore** and click on **Download Backup**
 
     ```bash
-    cd "$(brew --cellar)/ignition/8.1.2/libexec"
-    ./gwcmd.sh --backup ~/Downloads/ignition-8.1.2.gwbk
+    $ cd "$(brew --prefix ignition)"/libexec
+    $ ./gwcmd.sh --backup ~/Downloads/ignition-backup.gwbk
+    Gateway backup saved to /Users/thecesrom/Downloads/ignition-backup.gwbk
     ```
 
 1. If you are ready to upgrade, first you will have to stop Ignition by running the following commands
