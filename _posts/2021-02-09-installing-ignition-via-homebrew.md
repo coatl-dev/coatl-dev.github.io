@@ -9,7 +9,7 @@ tags:
 date: 2021-02-09 10:53 -0800
 ---
 <!-- TOC -->
-# Table of contents
+## Table of contents
 
 - [Introduction](#introduction)
 - [Motivation](#motivation)
@@ -53,7 +53,7 @@ Once you've installed Homebrew, or if you already have it, you'll need to tap co
 brew tap coatl-dev/coatl-dev
 ```
 
-That will *tap* our Homebrew repository and will allow you to install its _formulae_ or _casks_.
+That will *tap* our Homebrew repository and will allow you to install its **formulae** or **casks**.
 
 Please note that multiple releases can be installed side-by-side, with some considerations like the port number used for each Gateway.
 
