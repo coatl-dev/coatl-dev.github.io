@@ -14,7 +14,7 @@ Here are the most relevant changes:
 
 ## `ignition` had some refinements
 
-The `ignition` formula has gone through a bit of a transformation; here's the `git-diff`:
+The [`ignition`](https://formulae.coatl.dev/formula/ignition#default) formula has gone through a bit of a transformation; here's the `git-diff`:
 
 ```zsh
 $ git diff 9bef009 4852467 ./Formula/ignition.rb
