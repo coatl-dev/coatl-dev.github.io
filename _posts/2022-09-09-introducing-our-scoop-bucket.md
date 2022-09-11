@@ -11,6 +11,7 @@ tags:
 - scoop
 - windows
 date: 2022-09-09 23:54 -0700
+last-updated: 2022-09-10 22:10 -0700
 ---
 We've been recently experimenting with a way to install and distribute software for Windows, and while there are alternatives such as Microsoft's winget, Chocolatey, among others, we chose Scoop as we felt more comfortable with it since we're comfortable with Homebrew.
 
@@ -62,13 +63,9 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 Runtime unzipped.
 C:\Users\thecesrom\scoop\apps\ignition\current\lib\runtime
 wrapperm | Ignition Gateway service installed.
+wrapperm | Starting the Ignition Gateway service...
+wrapperm | Ignition Gateway service started.
 'ignition' (8.1.20) was installed successfully!
-Notes
------
-If this is a version upgrade from 8.1.x to 8.2.x, run 'run-upgrader.bat' inside
-C:\Users\thecesrom\scoop\apps\ignition\current before you start Ignition by running
-'start-ignition' on your terminal. To stop the Ignition service you may run
-'stop-ignition'.
 ```
 
 You will notice that the installation process creates two _shims_, `start-ignition` and `stop-ignition`, which are command-line shortcuts for `start-ignition.bat` and `stop-ignition.bat`, respectively. This means that starting and stopping Ignition can be done from the command-line without having to be at Ignition's installation directory, just like using `ignition start` and `ignition stop` commands in macOS.
@@ -90,6 +87,8 @@ If at some point you'd like to uninstall, you could simply run `scoop uninstall 
 $ scoop uninstall -p ignition
 Uninstalling 'ignition' (8.1.20).
 Running uninstaller script...
+wrapperm | Service is running.  Stopping it...
+wrapperm | Ignition Gateway service stopped.
 wrapperm | Ignition Gateway service removed.
 Removing shim 'start-ignition'.
 Removing shim 'start-ignition.cmd'.
