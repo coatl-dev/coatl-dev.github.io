@@ -40,6 +40,7 @@ round-avatar: true
 social-network-links:
   email: "blog@coatl.dev"
   github: coatl-dev
+  mastodon: fosstodon.org/@__coatldev__
   twitter: __coatldev__
 
 # If you want to show a link to an RSS in the footer, add the site description here.
