@@ -12,12 +12,13 @@ author: __coatldev__
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Blog: "blog"
+  News: "news"
   About Us: "about"
   Archive: "archive"
   Projects:
     - Homebrew Tap: "https://github.com/coatl-dev/homebrew-coatl-dev/"
     - coatl.dev Formulae: "https://formulae.coatl.dev/"
+    - Scoop Bucket: "https://github.com/coatl-dev/scoop-coatl-dev/"
 
 # --- Logo --- #
 
@@ -38,7 +39,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "blog@coatl.dev"
+  email: "coatl@coatl.dev"
   github: coatl-dev
   mastodon: fosstodon.org/@__coatldev__
   twitter: __coatldev__
@@ -170,9 +171,9 @@ date_format: "%-d %B, %Y"
 timezone: "America/Tijuana"
 markdown: kramdown
 highlighter: rouge
-permalink: blog/:year/:month/:day/:title/
+permalink: news/:year/:month/:day/:title/
 paginate: 5
-paginate_path: "blog/page:num"
+paginate_path: "news/page:num"
 
 kramdown:
   input: GFM
