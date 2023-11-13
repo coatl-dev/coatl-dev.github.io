@@ -13,11 +13,29 @@ css: '/css/home.css'
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
       {%- assign gh-user = "coatl-dev"-%}
-      {%- assign gh-project = "azure-pipeline-templates" -%}
+      {%- assign gh-project = "actions" -%}
       <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-square fa-stack-2x stack-color"></i>
           <i class="fa fa-bolt fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4>{{- gh-project -}}</h4>
+        <hr class="separator">
+        <p class="text-muted">GitHub Actions</p>
+        <hr class="separator">
+        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
+        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
+    <div class="project-card">
+      {%- assign gh-user = "coatl-dev"-%}
+      {%- assign gh-project = "azure-pipeline-templates" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-square fa-stack-2x stack-color"></i>
+          <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
         </span>
         <h4>{{- gh-project -}}</h4>
         <hr class="separator">
@@ -75,7 +93,7 @@ css: '/css/home.css'
         </span>
         <h4>{{- gh-project -}}</h4>
         <hr class="separator">
-        <p class="text-muted">coatl.dev Scoop Bucket</p>
+        <p class="text-muted">🍨 coatl.dev Scoop Bucket</p>
         <hr class="separator">
         <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
         <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
@@ -94,24 +112,6 @@ css: '/css/home.css'
         <h4>{{- gh-user -}}/{{- gh-project -}}</h4>
         <hr class="separator">
         <p class="text-muted">📦 Package for the Ignition Scripting API version 8.1</p>
-        <hr class="separator">
-        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
-        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
-      </a>
-    </div>
-  </div>
-  <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <div class="project-card">
-    {%- assign gh-user = "thecesrom"-%}
-    {%- assign gh-project = "incendium" -%}
-      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-square fa-stack-2x stack-color"></i>
-          <i class="fa fa-box fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4>{{- gh-user -}}/{{- gh-project -}}</h4>
-        <hr class="separator">
-        <p class="text-muted">📦 Package that extends and wraps Ignition scripting API</p>
         <hr class="separator">
         <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
         <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
