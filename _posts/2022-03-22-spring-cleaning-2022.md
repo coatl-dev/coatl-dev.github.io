@@ -139,7 +139,7 @@ Fortunately the `ignition` formula has always been on the `8.1` version, somethi
 
 ## `ignition@8.0` deprecation and cleanup
 
-November 12, 2020 was the *final* release for the `8.0` branch from Inductive Automation, and, as we announced it on our [previous post]({{ site.url }}/blog/2022/03/07/march-2022-homebrew-tap-updates/#ignition-80-deprecation), `ignition@8.0` has a deprecation warning.
+November 12, 2020 was the *final* release for the `8.0` branch from Inductive Automation, and, as we announced it on our [previous post]({{ site.url }}/news/2022/03/07/march-2022-homebrew-tap-updates/#ignition-80-deprecation), `ignition@8.0` has a deprecation warning.
 
 But that doesn't mean that we've stopped improving our formula. Au contraire, mes amis!
 

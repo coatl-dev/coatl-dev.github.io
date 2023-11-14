@@ -241,4 +241,4 @@ Try the [Discussions](https://github.com/coatl-dev/discussions/discussions/categ
 
 ## Further reading
 
-[Installing Ignition via Homebrew]({{ site.url }}/blog/2021/02/09/installing-ignition-via-homebrew)
+[Installing Ignition via Homebrew]({{ site.url }}/news/2021/02/09/installing-ignition-via-homebrew)

@@ -12,7 +12,7 @@ date: 2021-04-01 18:19 -0700
 ---
 We are proud to announce three new formulae!
 
-- [ignition](https://formulae.coatl.dev/formula/ignition) (More info [here]({{ site.url }}/blog/2021/03/04/stay-up-to-date-with-the-ignition-formula))
+- [ignition](https://formulae.coatl.dev/formula/ignition) (More info [here]({{ site.url }}/news/2021/03/04/stay-up-to-date-with-the-ignition-formula))
 - [ignition-edge@8.1.4](https://formulae.coatl.dev/formula/ignition-edge@8.1.4)
 - [ignition@8.1.4](https://formulae.coatl.dev/formula/ignition@8.1.4)
 

@@ -177,6 +177,6 @@ css: '/css/home.css'
 
 <ul class="pagination main-pager">
   <li class="page-item next">
-    <a class="page-link" href="{{site.baseurl}}/blog">News →</a>
+    <a class="page-link" href="{{site.baseurl}}/news">News →</a>
   </li>
 </ul>

@@ -14,9 +14,9 @@ Inductive Automation released Ignition 8.1.15 on March 1, 2022, and as we typica
 
 Additionally we did some refactoring, and simplified the `post_install` step of our formula. So instead of manually uncompressing the Java runtime and upgrading the `ignition.conf` file we now rely on two additional commands from the `ignition` executable; `chekruntimes` and `runupgrader`. Both of them were introduced on an earlier release and we now make use of both.
 
-To install or update to the latest Ignition version from our tap, please refer to the instructions found [here]({{ site.url }}/blog/2021/03/04/stay-up-to-date-with-the-ignition-formula), which apply to all versions.
+To install or update to the latest Ignition version from our tap, please refer to the instructions found [here]({{ site.url }}/news/2021/03/04/stay-up-to-date-with-the-ignition-formula), which apply to all versions.
 
-You may also find more information about Ignition on [the official announcement](https://inductiveautomation.com/blog/ignition-8115-perspective-components-get-a-boost-creating-tags-gets-easier-and-much-more), the [release notes](https://inductiveautomation.com/downloads/releasenotes/8.1.15), or the [docs](https://docs.inductiveautomation.com/display/DOC81/New+in+this+Version#NewinthisVersion-Newin8.1.15).
+You may also find more information about Ignition on [the official announcement](https://inductiveautomation.com/news/ignition-8115-perspective-components-get-a-boost-creating-tags-gets-easier-and-much-more), the [release notes](https://inductiveautomation.com/downloads/releasenotes/8.1.15), or the [docs](https://docs.inductiveautomation.com/display/DOC81/New+in+this+Version#NewinthisVersion-Newin8.1.15).
 
 ## Ignition 8.0 deprecation
 
