@@ -16,6 +16,8 @@ navbar-links:
   About Us: "about"
   Archive: "archive"
   Projects:
+    - Actions: "https://github.com/coatl-dev/actions"
+    - Workflows: "https://github.com/coatl-dev/workflows"
     - Homebrew Tap: "https://github.com/coatl-dev/homebrew-coatl-dev/"
     - coatl.dev Formulae: "https://formulae.coatl.dev/"
     - Scoop Bucket: "https://github.com/coatl-dev/scoop-coatl-dev/"
