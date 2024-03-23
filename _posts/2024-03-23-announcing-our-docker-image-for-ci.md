@@ -88,7 +88,9 @@ jobs:
 
 We believe that `six` will be a valuable addition to your development toolkit, offering a seamless and efficient experience for legacy project maintenance. Your feedback is crucial to us, so please don't hesitate to share your thoughts, suggestions, and any issues you encounter while using `six`.
 
-Thank you for choosing `six` for your Jython/Python 2.7 development needs. Happy coding!
+Thank you for choosing `six` for your Jython/Python 2.7 development needs. For detailed usage instructions and contributions, visit our [GitHub repository].
+
+Happy coding!
 
 <!-- External links -->
 [Azure Pipelines]: https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/jobs-job-container?view=azure-pipelines
@@ -97,3 +99,4 @@ Thank you for choosing `six` for your Jython/Python 2.7 development needs. Happy
 [jonhadfield/python-hosts]: https://github.com/jonhadfield/python-hosts/blob/9ed99ada371dcbe589f7f6fb5a75e2d70dd2af9c/.github/workflows/ci.yml#L8
 [markreidvfx/pyavb]: https://github.com/markreidvfx/pyavb/blob/ff64e06b60077ecabe5db3fef239898b08363898/.github/workflows/workflow.yml#L161
 [saqimtiaz/SQPL]: https://github.com/saqimtiaz/SQPL/blob/808a8fa40304d766ee48d49bf231bcb933fc7ef9/.github/workflows/build.yml#L17
+[GitHub repository]: https://github.com/coatl-dev/docker-six
