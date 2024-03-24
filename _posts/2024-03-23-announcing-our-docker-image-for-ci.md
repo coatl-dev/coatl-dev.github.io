@@ -80,6 +80,8 @@ jobs:
 ### GitHub  repos using `six`
 
 - [coatl-dev/workflows]
+  - [ignition-api/8.1]
+  - [ignition-incendium/incendium]
 - [jonhadfield/python-hosts]
 - [markreidvfx/pyavb]
 - [saqimtiaz/SQPL]
@@ -95,7 +97,9 @@ Happy coding!
 <!-- External links -->
 [Azure Pipelines]: https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/jobs-job-container?view=azure-pipelines
 [GitHub Workflows]: https://docs.github.com/en/actions/using-jobs/running-jobs-in-a-container
-[coatl-dev/workflows]: https://github.com/coatl-dev/workflows/blob/coatl/.github/workflows/tox-docker.yml
+[coatl-dev/workflows]: https://github.com/coatl-dev/workflows/blob/a4f46249a8a229e485e5424fc0bceaeb4d7fceae/.github/workflows/tox-docker.yml#L14
+[ignition-api/8.1]: https://github.com/ignition-api/8.1
+[ignition-incendium/incendium]: https://github.com/ignition-incendium/incendium
 [jonhadfield/python-hosts]: https://github.com/jonhadfield/python-hosts/blob/9ed99ada371dcbe589f7f6fb5a75e2d70dd2af9c/.github/workflows/ci.yml#L8
 [markreidvfx/pyavb]: https://github.com/markreidvfx/pyavb/blob/ff64e06b60077ecabe5db3fef239898b08363898/.github/workflows/workflow.yml#L161
 [saqimtiaz/SQPL]: https://github.com/saqimtiaz/SQPL/blob/808a8fa40304d766ee48d49bf231bcb933fc7ef9/.github/workflows/build.yml#L17
