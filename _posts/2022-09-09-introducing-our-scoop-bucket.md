@@ -61,7 +61,7 @@ Microsoft (R) Windows Script Host Version 5.812
 Copyright (C) Microsoft Corporation. All rights reserved.
 
 Runtime unzipped.
-C:\Users\thecesrom\scoop\apps\ignition\current\lib\runtime
+C:\Users\cesarcoatl\scoop\apps\ignition\current\lib\runtime
 wrapperm | Ignition Gateway service installed.
 wrapperm | Starting the Ignition Gateway service...
 wrapperm | Ignition Gateway service started.

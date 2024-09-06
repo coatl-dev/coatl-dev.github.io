@@ -138,16 +138,16 @@ Or to check the `brew` service:
 
 ```bash
 $ brew services
-Name           Status  User      Plist
-ignition@8.1.2 started thecesrom /Users/thecesrom/Library/LaunchAgents/homebrew.mxcl.ignition@8.1.2.plist
+Name           Status  User       Plist
+ignition@8.1.2 started cesarcoatl /Users/cesarcoatl/Library/LaunchAgents/homebrew.mxcl.ignition@8.1.2.plist
 ```
 
 It may occur that before you restart your Mac you might get `error` as the Status, like this:
 
 ```bash
 $ brew services
-Name           Status  User      Plist
-ignition@8.1.2 error   thecesrom /Users/thecesrom/Library/LaunchAgents/homebrew.mxcl.ignition@8.1.2.plist
+Name           Status  User       Plist
+ignition@8.1.2 error   cesarcoatl /Users/cesarcoatl/Library/LaunchAgents/homebrew.mxcl.ignition@8.1.2.plist
 ```
 
 There is no issue with the service, you might just need to restart.

@@ -84,7 +84,7 @@ Note: We have "pinned" Ignition 8.1.2 so we upgrade at our convenience, to learn
     ```bash
     $ cd "$(brew --prefix ignition)"/libexec
     $ ./gwcmd.sh --backup ~/Downloads/ignition-backup.gwbk
-    Gateway backup saved to /Users/thecesrom/Downloads/ignition-backup.gwbk
+    Gateway backup saved to /Users/cesarcoatl/Downloads/ignition-backup.gwbk
     ```
 
 1. If you are ready to upgrade, first you will have to stop Ignition by running the following commands
@@ -178,7 +178,7 @@ Once installed you may run any of the following commands to check Ignition's sta
     ```bash
     $ brew services
     Name     Status    User      Plist
-    ignition started   thecesrom /Users/thecesrom/Library/LaunchAgents/homebrew.mxcl.ignition.plist
+    ignition started   cesarcoatl /Users/cesarcoatl/Library/LaunchAgents/homebrew.mxcl.ignition.plist
     ```
 
 1. With `gwcmd`

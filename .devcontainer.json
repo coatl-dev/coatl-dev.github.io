@@ -5,5 +5,13 @@
     "forwardPorts": [
         4000,
         4000
-    ]
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "docsmsft.docs-markdown",
+                "streetsidesoftware.code-spell-checker"
+            ]
+        }
+    }
 }
