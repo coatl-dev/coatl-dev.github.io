@@ -9,6 +9,7 @@ tags:
 - python2
 - python3
 date: 2024-09-06 11:00 -0700
+last-updated: 2022-09-06 21:17 -0700
 ---
 Approximately six months ago, we introduced our official [Docker image for CI]({{ site.url }}/news/2024/03/23/announcing-our-docker-image-for-ci/). However, a major change was made three months ago that significantly impacts our setup. Let’s dive into the details!
 
@@ -19,7 +20,7 @@ Before June 17, 2024, our Docker image supported Python versions ranging from 3.
 Trying to install it results in the following error:
 
 ```sh
-$ python -VV      
+$ python -VV
 Python 3.13.0a6 (main, Apr 24 2024, 06:52:02) [GCC 12.2.0]
 $ python -m pip install 'mypy[python2]==0.971'
 Collecting mypy==0.971 (from mypy[python2]==0.971)
@@ -88,5 +89,21 @@ In response, we have updated our image by dropping support for Python versions 3
 To reassure our users, Python 3.12 will be actively supported until [October 2028](https://peps.python.org/pep-0693/#lifespan), giving us and our users four years of stability before its end-of-support. This provides ample time to plan for future transitions and upgrades.
 
 Stay tuned for more updates!
+
+## One more thing...
+
+We not only publish to [Docker Hub](https://docs.docker.com/docker-hub/), but also you can find us on [Red Hat Quay](https://www.redhat.com/en/technologies/cloud-computing/quay), where we publish images for both `linux/amd64` and `linux/arm64` platforms.
+
+Pull the container or use it as a base image from either:
+
+```sh
+docker pull coatldev/six
+```
+
+or
+
+```sh
+docker pull quay.io/coatldev/six
+```
 
 Thanks for reading.
