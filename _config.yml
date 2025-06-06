@@ -53,7 +53,6 @@ social-network-links:
   rss: true
   github: "coatl-dev"
   mastodon: "fosstodon.org/@__coatldev__"
-  twitter: __coatldev__
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
