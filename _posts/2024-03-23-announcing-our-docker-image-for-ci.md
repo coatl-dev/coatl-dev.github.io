@@ -80,8 +80,8 @@ jobs:
 ### GitHub  repos using `six`
 
 - [coatl-dev/workflows]
-  - [ignition-devs/ignition-api]
-  - [ignition-devs/incendium]
+- [ignition-devs/ignition-api]
+- [ignition-devs/incendium]
 - [jonhadfield/python-hosts]
 - [markreidvfx/pyavb]
 - [saqimtiaz/SQPL]
